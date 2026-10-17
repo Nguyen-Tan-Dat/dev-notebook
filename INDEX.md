@@ -1,29 +1,32 @@
 # Index
 
-## 🧭 Guides
+## 📘 Guides
 ```dataview
-LIST
+LIST rows.file.link
 FROM "01-guides"
-SORT file.name ASC
+GROUP BY file.folder
+SORT file.folder ASC
 ```
 
 ## ⚙️ Setup
 ```dataview
-LIST
+LIST rows.file.link
 FROM "02-setup"
-SORT file.name ASC
+GROUP BY file.folder
+SORT file.folder ASC
 ```
 
-## 🤔 Decisions
+## 🧠 Decisions
 ```dataview
-LIST
+LIST rows.file.link
 FROM "03-decisions"
 SORT file.name DESC
 ```
 
-## 💼 Experience
+## 💡 Experience
 ```dataview
-LIST
+LIST rows.file.link
 FROM "04-experience"
-SORT file.name ASC
+GROUP BY file.folder
+SORT file.folder ASC
 ```
