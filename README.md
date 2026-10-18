@@ -23,4 +23,6 @@ Personal knowledge base for software setup, development notes, technical decisio
 ## Update
 ```bash
 git add .
+git commit -m "Update"
+git push
 ```
