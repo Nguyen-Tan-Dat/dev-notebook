@@ -20,3 +20,7 @@ Personal knowledge base for software setup, development notes, technical decisio
 2. Phân loại vào đúng thư mục
 3. Thêm tag và liên kết `[[...]]`
 4. Commit Git thường xuyên
+## Update
+```bash
+git add .
+```
